@@ -1,0 +1,6 @@
+SHIPYARD=$(docker run \
+    -name shipyard \
+  -p 8005:8000 \
+  -d \
+  shipyard/shipyard)
+  
